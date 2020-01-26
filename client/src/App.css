@@ -1,0 +1,45 @@
+html {
+  box-sizing: border-box;
+  /* overflow: hidden; */
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Lobster', 'Lemon', cursive;
+  padding: 0;
+  margin: 0;
+  margin-left: 15px;
+}
+
+.title {
+  font-size: 42px;
+  font-weight: bold;
+  color: palevioletred;
+  text-align: center;
+}
+
+.details_div {
+  font-size: 42px;
+  font-weight: bold;
+  color: palevioletred
+}
+
+.details_text {
+  font-family: 'Lemon', 'Lobster', cursive;
+  font-size: 24px;
+  color: black
+}
+
+.picture_div {
+  margin-bottom: 100px;
+}
+
+.pictures {
+  max-width: 1000px;
+  height: auto;
+}

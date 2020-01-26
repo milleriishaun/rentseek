@@ -1,0 +1,52 @@
+{
+  "name": "rentseek",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "engines": {
+    "node": "12.13.1"
+  },
+  "dependencies": {
+    "compression": "^1.7.4",
+    "concurrently": "^5.0.0",
+    "express": "^4.17.1",
+    "morgan": "^1.9.1",
+    "node-fetch": "^2.6.0",
+    "randomcolor": "^0.5.4",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-scripts": "3.3.0",
+    "yarn": "^1.21.1"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "server": "node server.js",
+    "client": "node start-client.js",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "heroku-postbuild": "cd client && npm install && npm install --only=dev --no-shrinkwrap && npm run build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/milleriishaun/rentseek.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/milleriishaun/rentseek/issues"
+  },
+  "homepage": "https://github.com/milleriishaun/rentseek#readme"
+}

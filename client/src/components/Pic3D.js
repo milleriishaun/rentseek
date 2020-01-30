@@ -1,5 +1,6 @@
 import React from "react";
 
+// Load the 3D panorama after giving Exif data
 const Pic3D = () => {
   const pic = <iframe>Something</iframe>;
 

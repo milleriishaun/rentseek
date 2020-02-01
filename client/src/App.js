@@ -9,6 +9,7 @@ export default function App() {
       <Title />
       <Details />
       <Pic3D />
+      <Footer />
     </div>
   );
 }

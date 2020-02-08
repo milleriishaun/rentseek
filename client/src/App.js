@@ -10,6 +10,7 @@ export default function App() {
       <Details />
       <Pic3D />
       <Footer />
+      <div>Copywrite 2020</div>
     </div>
   );
 }
